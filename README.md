@@ -21,13 +21,6 @@ Same expression in unrelated classes
 >**Refactoring:** Extract Class, or only make one uses the other
 
 
-## Refactorings
- - [Extract Method](http://refactoring.com/catalog/extractMethod.html)
- - [Pull Up Field](http://refactoring.com/catalog/pullUpField.html)
- - [Form Template Method](http://refactoring.com/catalog/formTemplateMethod.html)
- - [Substitute Algorithm](http://refactoring.com/catalog/substituteAlgorithm.html)
- - [Extract Class](http://refactoring.com/catalog/extractClass.html)
-
 ###Long Method
 
 **The longer a method is, the more difficult it is to understand**
@@ -39,3 +32,11 @@ Use good naming
 90% of the time, just [Extract Method](http://refactoring.com/catalog/extractMethod.html)
 
 **What to extract?** Look for comments explaining a piece of code 
+
+
+## Refactorings
+ - [Extract Method](http://refactoring.com/catalog/extractMethod.html)
+ - [Pull Up Field](http://refactoring.com/catalog/pullUpField.html)
+ - [Form Template Method](http://refactoring.com/catalog/formTemplateMethod.html)
+ - [Substitute Algorithm](http://refactoring.com/catalog/substituteAlgorithm.html)
+ - [Extract Class](http://refactoring.com/catalog/extractClass.html)
