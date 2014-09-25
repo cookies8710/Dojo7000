@@ -27,3 +27,15 @@ Same expression in unrelated classes
  - [Form Template Method](http://refactoring.com/catalog/formTemplateMethod.html)
  - [Substitute Algorithm](http://refactoring.com/catalog/substituteAlgorithm.html)
  - [Extract Class](http://refactoring.com/catalog/extractClass.html)
+
+###Long Method
+
+**The longer a method is, the more difficult it is to understand**
+
+Be aggressive about decomposing methods
+
+Use good naming
+
+90% of the time, just [Extract Method](http://refactoring.com/catalog/extractMethod.html)
+
+**What to extract?** Look for comments explaining a piece of code 
