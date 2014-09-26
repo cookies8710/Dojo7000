@@ -59,5 +59,11 @@ namespace StringCalculator.Tests
         {
             Assert.Equal(13, StringCalculator.Add("//delim\n5delim8delim9000"));
         }
+
+        [Fact]
+        public void Add_MultipleDelimenters_ShouldWork()
+        {
+            Assert.Equal(14, StringCalculator.Add("//[delim][kkt]\n5delim8kkt9000kkt1"));
+        }
     }
 }
