@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ef6e3c7b-a25d-4b37-b822-973adb5ff035}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>potter.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.4</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bowling.py" />
+    <Compile Include="Doraemon\Doraemon.py" />
+    <Compile Include="potter.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LeapYearKata\LeapYearKata.Tests\obj\Debug\LeapYearKata.Tests.csproj.FileListAbsolute.txt" />
+    <Content Include="LeapYearKata\LeapYearKata\obj\Debug\LeapYearKata.csproj.FileListAbsolute.txt" />
+    <Content Include="StringCalculator\StringCalculator.Tests\obj\Debug\StringCalculator.Tests.csproj.FileListAbsolute.txt" />
+    <Content Include="StringCalculator\StringCalculator\obj\Debug\StringCalculator.csproj.FileListAbsolute.txt" />
+    <Content Include="TennisKata\obj\x86\Debug\Tennis.csproj.FileListAbsolute.txt" />
+    <Content Include="TennisKata\packages\NUnit.2.6.3\license.txt" />
+    <Content Include="TennisKata\UpgradeLog.htm" />
+    <Content Include="TennisTests\obj\Debug\TennisTests.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Doraemon" />
+    <Folder Include="LeapYearKata\" />
+    <Folder Include="LeapYearKata\LeapYearKata.Tests\" />
+    <Folder Include="LeapYearKata\LeapYearKata.Tests\obj\" />
+    <Folder Include="LeapYearKata\LeapYearKata.Tests\obj\Debug" />
+    <Folder Include="LeapYearKata\LeapYearKata\" />
+    <Folder Include="LeapYearKata\LeapYearKata\obj\" />
+    <Folder Include="LeapYearKata\LeapYearKata\obj\Debug" />
+    <Folder Include="StringCalculator\" />
+    <Folder Include="StringCalculator\StringCalculator.Tests\" />
+    <Folder Include="StringCalculator\StringCalculator.Tests\obj\" />
+    <Folder Include="StringCalculator\StringCalculator.Tests\obj\Debug" />
+    <Folder Include="StringCalculator\StringCalculator\" />
+    <Folder Include="StringCalculator\StringCalculator\obj\" />
+    <Folder Include="StringCalculator\StringCalculator\obj\Debug" />
+    <Folder Include="TennisKata" />
+    <Folder Include="TennisKata\obj\" />
+    <Folder Include="TennisKata\obj\x86\" />
+    <Folder Include="TennisKata\obj\x86\Debug" />
+    <Folder Include="TennisKata\packages\" />
+    <Folder Include="TennisKata\packages\NUnit.2.6.3" />
+    <Folder Include="TennisTests\" />
+    <Folder Include="TennisTests\obj\" />
+    <Folder Include="TennisTests\obj\Debug" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.4" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
