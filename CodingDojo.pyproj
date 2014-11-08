@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ef6e3c7b-a25d-4b37-b822-973adb5ff035}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>potter.py</StartupFile>
+    <StartupFile>tests.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,9 +21,15 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bowling.py" />
+    <Compile Include="Bowling\bowling.py" />
     <Compile Include="Doraemon\Doraemon.py" />
-    <Compile Include="potter.py">
+    <Compile Include="tests.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="medicine.py" />
+    <Compile Include="patient.py" />
+    <Compile Include="prescription.py" />
+    <Compile Include="Potter\potter.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -46,6 +52,9 @@
     <Folder Include="LeapYearKata\LeapYearKata\" />
     <Folder Include="LeapYearKata\LeapYearKata\obj\" />
     <Folder Include="LeapYearKata\LeapYearKata\obj\Debug" />
+    <Folder Include="MedicineClash\" />
+    <Folder Include="Bowling\" />
+    <Folder Include="Potter\" />
     <Folder Include="StringCalculator\" />
     <Folder Include="StringCalculator\StringCalculator.Tests\" />
     <Folder Include="StringCalculator\StringCalculator.Tests\obj\" />
