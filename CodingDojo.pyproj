@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ef6e3c7b-a25d-4b37-b822-973adb5ff035}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>tests.py</StartupFile>
+    <StartupFile>Aleph0Life\life.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,6 +21,9 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Aleph0Life\life.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Bowling\bowling.py" />
     <Compile Include="Doraemon\Doraemon.py" />
     <Compile Include="tests.py">
@@ -54,6 +57,7 @@
     <Folder Include="LeapYearKata\LeapYearKata\obj\Debug" />
     <Folder Include="MedicineClash\" />
     <Folder Include="Bowling\" />
+    <Folder Include="Aleph0Life\" />
     <Folder Include="Potter\" />
     <Folder Include="StringCalculator\" />
     <Folder Include="StringCalculator\StringCalculator.Tests\" />
