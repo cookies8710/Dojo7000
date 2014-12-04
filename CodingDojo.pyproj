@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ef6e3c7b-a25d-4b37-b822-973adb5ff035}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aleph0Life\life.py</StartupFile>
+    <StartupFile>GameOfLifeTeamAlfa\life.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -26,6 +26,9 @@
     </Compile>
     <Compile Include="Bowling\bowling.py" />
     <Compile Include="Doraemon\Doraemon.py" />
+    <Compile Include="GameOfLifeTeamAlfa\life.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tests.py">
       <SubType>Code</SubType>
     </Compile>
@@ -58,6 +61,7 @@
     <Folder Include="MedicineClash\" />
     <Folder Include="Bowling\" />
     <Folder Include="Aleph0Life\" />
+    <Folder Include="GameOfLifeTeamAlfa\" />
     <Folder Include="Potter\" />
     <Folder Include="StringCalculator\" />
     <Folder Include="StringCalculator\StringCalculator.Tests\" />
